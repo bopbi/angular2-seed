@@ -7,7 +7,7 @@ import 'rxjs/add/operator/catch';
 @Injectable()
 export class BaconService {
     
-    private baconsUrl = 'https://baconipsum.com/api/?type=meat-and-filler';  // URL to web api
+    private baconsUrl = 'http://localhost:3000/bacons.json';  // URL to web api
     
     constructor(private http: Http) { }
     
